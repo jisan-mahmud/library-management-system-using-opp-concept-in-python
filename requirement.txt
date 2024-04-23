@@ -1,0 +1,17 @@
+Problem: Library Management System
+
+Design a library management system that handles books, users, and borrowing operations. The system should be able to:
+
+Add new books to the library.
+Add new users (members) to the system.
+Allow users to borrow books from the library.
+Allow users to return books to the library.
+Display the list of books available in the library.
+Display the list of books borrowed by a specific user.
+Keep track of the number of available copies for each book.
+Ensure that a user cannot borrow more books than the maximum allowed limit.
+Your solution should include the following classes:
+
+User: Represents a library user with attributes like name, user ID, and a list of borrowed books.
+Book: Represents a book with attributes like title, author, and number of available copies.
+Library: Represents the library itself, managing books, users, and borrowing operations.
